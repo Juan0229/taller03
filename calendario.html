@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario Escolar</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #e277d0;
+        }
+        h2 {
+            text-align: center;
+            color: #000000;
+        }
+        .matematicas {
+            background-color: #0077ff;
+            
+        }
+        .ciencias {
+            background-color: #00FF00;
+            color: black;
+        }
+        .Arte , .ingles {
+            background-color: #ff6600;
+            color: white;
+        }
+        .Computacion , .taller , .Educacion {
+            background-color: #a653bb;
+            color: rgb(0, 0, 0);
+        }
+        .recreo , .almuerzo {
+            background-color: #ffee00;
+            color: black;
+        }
+        .historia {
+            background-color: #bd3378;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <table border="1" >
+        <h2>Horario Escolar</h2>
+    <tr>
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>jueves</th>
+        <th>viernes</th>
+    </tr>
+    <tr>
+        <td class="Arte"> 08 00 - 09 00</td>
+        <td class="matematicas">Matermaticas</td>
+        <td class="ciencias">Ciencias</td>
+        <td class="historia">Historia</td>
+        <td class="ingles">Inglés</td>
+        <td class="Arte">Arte</td>
+    </tr>
+    <tr>
+        <td class="Arte">09 00 - 10 00</td>
+        <td colspan="2" class="Educacion" >Educacion Fisica</td>
+        <td class="historia">Historia</td>
+        <td class="ciencias">Ciencias</td>
+        <td class="matematicas">Matematicas</td>
+    </tr>
+    <tr>
+     <td class="recreo" colspan="6">recreo</td>
+    </tr>
+    <tr>
+        <td class="Arte">10 30 - 11 30</td>
+        <td class="ciencias">Ciencias</td>
+        <td class="Arte">Arte</td>
+        <td class="Computacion">Computacion</td>
+        <td colspan="2" class="historia"> Historia</td>
+    </tr>
+    <tr>
+     <td class="almuerzo" colspan="6">Almuerzo</td>
+    </tr>
+    <tr>
+        <td class="Arte">12 30 - 13 30</td>
+        <td class="matematicas">Matematicas</td>
+        <td class="ingles">Ingles</td>
+        <td class="Arte"> Arte</td>
+        <td colspan="2" class="ciencias">Ciencias</td>
+    </tr>
+    <tr>
+        <td class="Arte"class="Arte">13 30 - 14 30</td>
+       <td colspan="5" class="taller" >Taller de Lectura</td>
+    </tr>
+</table>
+</body>
+</html>
